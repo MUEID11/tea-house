@@ -27,6 +27,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              'gradient-start' : "#F00"
             },
           },
         },
@@ -39,9 +40,9 @@
     </style>
   </head>
   <body class="manrope">
-    <header class="container mx-auto">
-      <div class="hero">
-        <div class="hero-content flex-col lg:flex-row">
+    <header class="container mx-auto px-10">
+      <div class="">
+        <div class="flex justify-between items-center flex-col lg:flex-row my-20">
           <div>
             <h1 class="text-7xl font-extrabold">
               It's good<br>
@@ -50,15 +51,15 @@
             </h1>
             <p class="py-6">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              excepturi exercitationem quasi. <br> In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button class="btn btn-primary">Explore more</button>
+            <button class="btn bg-gradient-to-r from-amber-500 to-red-500 rounded-xl text-white">Explore more <i class="fa-solid fa-carrot"></i></button>
           </div>
           <div>
             <img
-            src="./tea-house-resources/images/banner.png"
-            class="max-w-sm"
+            src="./tea-house/images/banner.png"
+            class="max-w-lg"
           />
           <div class="flex items-center gap-5 drop-shadow-lg bg-white p-4 rounded-lg w-60 -mt-20">
             <i class="fa-solid fa-star text-4xl text-amber-300"></i>
@@ -71,7 +72,7 @@
         </div>
       </div>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto px-10">
       <!--featured section-->
       <section class="text-center my-20">
         <div class="lg:max-w-screen-xl mx-auto">
@@ -83,7 +84,7 @@
         <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           <!--first card-->
           <div class="card bg-[#F4F4F4] shadow-xl p-7">
-            <figure><img src="./tea-house-resources/images/tea-1.png" alt="Shoes" /></figure>
+            <figure><img src="./tea-house/images/tea-1.png" alt="Shoes" /></figure>
             <div class="card-body">
               <h2 class="text-3xl font-bold">Milk Tea</h2>
               <p>Creamer could be replaced by fresh milk</p>
@@ -91,7 +92,7 @@
           </div>
           <!--second card-->
           <div class="card bg-[#F4F4F4] shadow-xl p-7">
-            <figure><img src="./tea-house-resources/images/tea-2.png" alt="Shoes" /></figure>
+            <figure><img src="./tea-house/images/tea-2.png" alt="Shoes" /></figure>
             <div class="card-body">
               <h2 class="text-3xl font-bold">Black Tea</h2>
               <p>Creamer could be replaced by fresh milk</p>
@@ -99,7 +100,7 @@
           </div>
           <!--third card-->
           <div class="card bg-[#F4F4F4] shadow-xl p-7">
-            <figure><img src="./tea-house-resources/images/tea-3.png" alt="Shoes" /></figure>
+            <figure><img src="./tea-house/images/tea-3.png" alt="Shoes" /></figure>
             <div class="card-body">
               <h2 class="text-3xl font-bold">Lemon Tea</h2>
               <p>Creamer could be replaced by fresh milk</p>
@@ -107,7 +108,7 @@
           </div>
           <!--fourth card-->
           <div class="card bg-[#F4F4F4] shadow-xl p-7">
-            <figure><img src="./tea-house-resources/images/tea-4.png" alt="Shoes" /></figure>
+            <figure><img src="./tea-house/images/tea-4.png" alt="Shoes" /></figure>
             <div class="card-body">
               <h2 class="text-3xl font-bold">Green Tea</h2>
               <p>Creamer could be replaced by fresh milk</p>
@@ -120,8 +121,8 @@
       <section class="my-25 gap-12 flex flex-col-reverse lg:flex-row">
         <div class="grid gap-5 grid-cols-1 md:grid-cols-2 flex-1">
           <div class="rounded-xl bg-gradient-to-r from-red-100 to-orange-50 h-36"></div>
-          <div class="row-span-2 rounded-xl py-12 flex justify-center bg-[#E6A6231A]"><img src="./tea-house-resources/images/fresh-1.png" alt=""></div>
-          <div class="row-span-2 rounded-xl py-12 flex justify-center bg-[#593C271A]"><img src="./tea-house-resources/images/fresh-2.png" alt=""></div>
+          <div class="row-span-2 rounded-xl py-12 flex justify-center bg-[#E6A6231A]"><img src="./tea-house/images/fresh-1.png" alt=""></div>
+          <div class="row-span-2 rounded-xl py-12 flex justify-center bg-[#593C271A]"><img src="./tea-house/images/fresh-2.png" alt=""></div>
           <div class="rounded-xl bg-gradient-to-r from-slate-300 to-slate-50 h-36"></div>
         </div>
         <div class="space-y-5 flex-1">
@@ -139,41 +140,41 @@
           <div class="space-y-10">
             <h1 class="text-4xl font-extrabold text-white">Meet Our Super <br> Clients</h1>
             <p class="text-white">There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration in some form, by injected humour,<br> or randomised words which don't look even slightly believable. </p>
-            <button class="btn border-none bg-white font-extrabold text-xl">Show all</button>
+            <button class="btn bg-gradient-to-r from-amber-500 to-red-500 rounded-xl text-white">Show all</button>
           </div>
         </div>
         <!--review container-->
         <div class="relative flex-1 mt-10">
           <!--preview review-->
           <div class="opacity-10 bg-white p-10 rounded-lg space-y-4 relative mb-16 z-10">
-            <img class="absolute -top-5 -left-5 border-4 border-white rounded-full bg-white" src="./tea-house-resources/images/client.png" alt="">
+            <img class="absolute -top-5 -left-5 border-4 border-white rounded-full bg-white" src="./tea-house/images/client.png" alt="">
             <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
             <h5 class="font-extrabold">Ilham Yuda</h5>
             <h5 class="font-medium">Businessman</h5>
             <div class="flex justify-end">
-              <img src="./tea-house-resources/images/circles.png" alt="">
+              <img src="./tea-house/images/circles.png" alt="">
             </div>
             
           </div>
           <!-- current review-->
           <div class="bg-white p-10 rounded-lg space-y-4 absolute  top-36 -left-5 lg:-left-28 lg:w-[650px] z-20">
-            <img class="absolute -top-5 -left-5 border-4 border-white rounded-full bg-white" src="./tea-house-resources/images/client.png" alt="">
+            <img class="absolute -top-5 -left-5 border-4 border-white rounded-full bg-white" src="./tea-house/images/client.png" alt="">
             <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
             <h5 class="font-extrabold">Ilham Yuda</h5>
             <h5 class="font-medium">Businessman</h5>
             <div class="flex justify-end">
-              <img src="./tea-house-resources/images/circles.png" alt="">
+              <img src="./tea-house/images/circles.png" alt="">
             </div>
             
           </div>
           <!--previous review-->
           <div class="opacity-40 bg-white p-10 rounded-lg space-y-4 relative z-10">
-            <img class="absolute -top-5 -left-5 border-4 border-white rounded-full bg-white" src="./tea-house-resources/images/client.png" alt="">
+            <img class="absolute -top-5 -left-5 border-4 border-white rounded-full bg-white" src="./tea-house/images/client.png" alt="">
             <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
             <h5 class="font-extrabold">Ilham Yuda</h5>
             <h5 class="font-medium">Businessman</h5>
             <div class="flex justify-end">
-              <img src="./tea-house-resources/images/circles.png" alt="">
+              <img src="./tea-house/images/circles.png" alt="">
             </div>
             
           </div>
@@ -186,7 +187,7 @@
           <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div class="card bg-base-100 shadow-xl border">
               <figure class="px-10 pt-10">
-                <img class="object-cover"src="./tea-house-resources/images/news-1.png" alt="Shoes" class="rounded-xl" />
+                <img class="object-cover"src="./tea-house/images/news-1.png" alt="Shoes" class="rounded-xl" />
               </figure>
               <div class="card-body">
                 <p>22/01/2024</p>
@@ -197,7 +198,7 @@
             </div>
             <div class="card bg-base-100 shadow-xl border">
               <figure class="px-10 pt-10">
-                <img class="object-cover"src="./tea-house-resources/images/news-2.png" alt="Shoes" class="rounded-xl" />
+                <img class="object-cover"src="./tea-house/images/news-2.png" alt="Shoes" class="rounded-xl" />
               </figure>
               <div class="card-body">
                 <p>22/01/2024</p>
@@ -208,7 +209,7 @@
             </div>
             <div class="card bg-base-100 shadow-xl border">
               <figure class="px-10 pt-10">
-                <img class="object-cover w-100"src="./tea-house-resources/images/news-3.png" alt="Shoes" class="rounded-xl" />
+                <img class="object-cover w-100"src="./tea-house/images/news-3.png" alt="Shoes" class="rounded-xl" />
               </figure>
               <div class="card-body">
                 <p>22/01/2024</p>
@@ -220,6 +221,50 @@
           </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="px-10 lg:px-48 py-10 mt-28 bg-gradient-to-r from-red-200 to-red-100 text-base-content">
+      <div class="flex justify-between my-10">
+        <img src="./tea-house/images/cup.png" alt="">
+        <p class="font-bold ml-10">Ready to get strated?
+          <button class="btn bg-gradient-to-r from-amber-500 to-red-500 rounded-xl text-white">Subscribe</button>
+        </p>
+      </div>
+    <div class="footer">
+      <nav>
+        <header class="footer-title">Services</header> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Company</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Legal</header> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav> 
+      <form>
+        <header class="footer-title">Newsletter</header> 
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="username@site.com" class="bg-transparent border-b-2 border-black" /> 
+            <button class="btn bg-gradient-to-r from-amber-500 to-red-500 rounded-full text-white text-xl"><i class="fa-regular fa-hand-point-right"></i></button>
+          </div>
+        </fieldset>
+      </form>
+  </div>
+  <aside class="text-center mt-12">
+    <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+  </aside>
+</footer>
   </body>
 </html>
